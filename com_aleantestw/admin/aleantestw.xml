@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" client="site" method="upgrade">
+	<name>COM_ALEANTESTW</name>
+	<author>Semyon</author>
+	<creationDate>20210606</creationDate>
+	<copyright>Copyright All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>realnmn@mail.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<version>0.0.1</version>
+	<description>COM_ALEANTESTW_XML_DESCRIPTION</description>
+	<files folder="site">
+		<filename>aleantestwcomponent.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<folder>views</folder>
+	</files>
+	<administration>
+		<menu link="option=COM_ALEANTESTW">COM_ALEANTESTW</menu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>aleantestwcomponent.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<folder>views</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_aleantestw.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_aleantestw.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

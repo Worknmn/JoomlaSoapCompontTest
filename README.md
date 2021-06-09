@@ -1,3 +1,2 @@
 # JoomlaSoapCompontTest
-alean soap test in joomla
-Simple installable component.
+alean soap test in joomla. Simple installable component.
